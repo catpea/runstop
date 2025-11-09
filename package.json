@@ -1,6 +1,6 @@
 {
   "name": "runstop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ultra-lightweight async code inspection tool with web interface",
   "main": "index.js",
   "type": "module",
@@ -8,8 +8,12 @@
     "save": "git add .; git commit -m 'Updated Release'; npm version patch; npm publish; git push --follow-tags;",
     "test": "node --test"
   },
-  "keywords": ["debug", "inspect", "breakpoint", "async"],
-
+  "keywords": [
+    "debug",
+    "inspect",
+    "breakpoint",
+    "async"
+  ],
   "author": "catpea (https://github.com/catpea)",
   "license": "MIT",
   "dependencies": {
@@ -28,5 +32,4 @@
     "type": "github",
     "url": "https://github.com/sponsors/catpea"
   }
-
 }
