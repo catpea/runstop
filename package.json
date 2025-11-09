@@ -5,9 +5,28 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "save": "git add .; git commit -m 'Updated Release'; npm version patch; npm publish; git push --follow-tags;",
+    "test": "node --test"
   },
   "keywords": ["debug", "inspect", "breakpoint", "async"],
-  "author": "catpea",
-  "license": "MIT"
+
+  "author": "catpea (https://github.com/catpea)",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.34.4",
+    "aggressive": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/runstop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catpea/runstop/issues"
+  },
+  "homepage": "https://catpea.github.io/runstop",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/catpea"
+  }
+
 }

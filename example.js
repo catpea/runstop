@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import runstop from './index.js';
 
 const users = [
