@@ -1,0 +1,13 @@
+{
+  "name": "runstop",
+  "version": "1.0.0",
+  "description": "Ultra-lightweight async code inspection tool with web interface",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["debug", "inspect", "breakpoint", "async"],
+  "author": "catpea",
+  "license": "MIT"
+}
